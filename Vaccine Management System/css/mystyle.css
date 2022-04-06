@@ -1,0 +1,222 @@
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.h2{
+  color: black;
+  margin: 0px 0px 0px 0px;
+
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+.p1{
+	float: right;
+	font-size: 32px;
+	margin-right: 42%;
+	margin-top: 40px;
+	color: #222247;
+	font-weight: bolder;
+}
+.p2{
+	float: right;
+	margin-right: 50px;
+	margin-top: 25px;
+  width: 100px;
+}
+.p2 input[type="submit"] {
+  font-family: 'Lato', sans-serif;
+  background: linear-gradient(to bottom, #ffffff 0%, #c5cbd0 100%);
+  display: inline-block;
+  border: none;
+  border-radius: 3px;
+  padding: 8px;
+  font-size: 17px;
+  color: #040607;
+  text-shadow: 0 1px 0 rgb(255 255 255);
+  font-size: 19px;
+  font-weight: 850;
+  box-shadow: 0 1px 3px 1px rgb(70 71 72), 0 1px 0 rgb(255 255 255) inset;
+  cursor: pointer;
+  box-sizing: border-box;
+  width: 100%;
+  transition: all;
+}
+.image21{
+	margin-top: -6px;
+  margin-left: 10px;
+	height: 100px;
+}
+.r1{
+	  font-size: 32px;
+    margin-top: -85px;
+    margin-right: 42%;
+    float: right;
+    color: #151E3D;
+    font-weight: 700
+}
+.r2{
+  height: 55px;
+  width: 200px;
+  margin-left: 43.5%;
+}
+.r3{
+  border: 3px solid #2d416d;
+  border-radius: 5px;
+  width: 500px;
+  height: 500px;
+  margin: 30px 0px 0px 480px;
+  padding: 30px 30px 0 30px;
+  text-align: center;
+  background: radial-gradient(ellipse at center, #4e6591 0%, #02072b 100%);
+  color: white;
+}
+.r3 h1 {
+  margin: 0 0 5px 0;
+  padding: 0;
+  font-size: 26px;
+  color: #fff;
+}
+.body {
+  background: url("19.jpg");
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  height: 100%;
+  width: 100%;
+}
+.r4{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  padding-left: 1px;
+  font-size: 110%;
+}
+.l1 input[type="text"]{
+  border: solid #151E3D;
+  display: inline-block;
+  outline: none;
+  padding: 2px 2px 2px 2px;
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  border-radius: 3px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 30px;
+  margin-top: 5px;
+}
+.l1 input[type="submit"] {
+  font-family: 'Lato', sans-serif;
+  background: linear-gradient(to bottom, #e0e0e0 0%, #cecece 100%);
+  display: block;
+  margin: 6px auto 0 auto;
+  border: solid #151E3D;
+  border-radius: 3px;
+  padding: 8px;
+  font-size: 17px;
+  color: black;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.45);
+  font-weight: 700;
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.17), 0 1px 0 rgba(255, 255, 255, 0.36) inset;
+  cursor: pointer;
+  box-sizing: border-box;
+  width: 49%;
+  float: right;
+}
+.l1 input[type="submit"]:hover {
+  background: #DDD;
+}
+.l1 input[type="submit"]:active {
+  padding-top: 9px;
+  padding-bottom: 7px;
+  background: #C9C9C9;
+}
+.l1 input[type="reset"] {
+  font-family: 'Lato', sans-serif;
+  background: linear-gradient(to bottom, #e0e0e0 0%, #cecece 100%);
+  display: block;
+  margin: 6px auto 0 auto;
+  border: solid #151E3D;
+  border-radius: 3px;
+  padding: 8px;
+  font-size: 17px;
+  color: black;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.45);
+  font-weight: 700;
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.17), 0 1px 0 rgba(255, 255, 255, 0.36) inset;
+  cursor: pointer;
+  box-sizing: border-box;
+  width: 49%;
+  float: left;
+}
+.l1 input[type="reset"]:hover {
+  background: #DDD;
+}
+.l1 input[type="reset"]:active {
+  padding-top: 9px;
+  padding-bottom: 7px;
+  background: #C9C9C9;
+}

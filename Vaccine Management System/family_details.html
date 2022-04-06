@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Details </title>
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/_details.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+
+</head>
+<body>
+  <p><img class="image21" src="images/01.jpg">
+    <a href="students.html" class="p2"><input type="submit" value="Back"></a>
+  </p>
+  <form class="Tdetails_form" action="#popup1" method="post">
+    <div class="Tform_header">
+      <h1><b>Family Details Form</b></h1>
+    </div>
+    
+   <div class="form-body">
+      <!-- Smard Card ID -->
+    <div class="form-group">
+    <label for="smartcardid" class="label-title"><b>Teacher Smart Card ID</b></label>
+    <input type="text" id="smartcardid" name="smartcardid" class="form-input" placeholder="enter your smartcard id" required pattern="[a-zA-Z0-9]+">
+    </div> 
+    <!-- Full Name -->
+    <div class="form-group" >
+       <label for="name" class="label-title"><b>Full Name</b></label>
+       <input type="text" id="name" class="form-input" placeholder="enter your full name" required="required" />
+    </div>
+   <!-- Phone Number -->
+    <div class="form-group">
+       <label for="phone" class="label-title"><b>Contact Number</b></label>
+       <input type="tel" id="phone" class="form-input" name="phone" placeholder="enter your contact number">
+    </div>
+   <!--Address-->
+    <div class="form-group">
+     <label for="address" class="label-title"><b>Address</b></label>
+     <input type="text" id="address" class="form-input" name="address" placeholder="enter your address">
+    </div>
+   <!--Vaccinated or not-->
+    <div class="form-group">
+     <label for="Vaccinated" class="label-title"><b>Fully Vaccinated</b></label><br>
+     <input type="radio" id="Fully Vaccinated" name="Fully Vaccinated" value="Yes"/>Yes<br>
+     <input type="radio" id="Fully Vaccinated" name="Fully Vaccinated" value="No"/>No<br>
+    </div>
+   </div>
+   <div class="form-footer">
+    <button type="submit" class="btn" >Save</button>
+   </div>
+  </form>
+  <br>
+</body>
+</html>

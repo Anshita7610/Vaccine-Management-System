@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Announcement page</title>
+<link href="css/announcement.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+   <p><img class="image21" src="images/01.jpg">
+    <span class="p1"> Announcements</span>
+   </p> 
+   <a href="" class="p21"><input type="submit" value="Back"></a>
+   
+   <div class="c1"></div>
+
+   <button class="p22" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Upload</button>
+
+   <div id="id01" class="modal">
+   <form class="m1" action="" method="post">
+    
+    <div class="c2">
+      <label for="uname" ><b>Title</b></label>
+      <input class="t1" type="text" placeholder="Enter Title" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+   </body>
+   </html>

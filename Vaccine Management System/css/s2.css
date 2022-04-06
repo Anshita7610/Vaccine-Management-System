@@ -1,0 +1,292 @@
+* {
+    box-sizing: border-box;
+    margin:0; padding:0; 
+  }
+body {
+    background: url("19.jpg");
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+    width: 100%
+  }
+.container1 {
+	position: relative;
+    display: inline-block;
+	margin:0 auto;
+	padding: 0 10px;
+	height: 500px;
+    width: 50%;
+    float: left;
+   }
+.image21{
+    margin-top: 10px;
+    height: 100px;
+    margin-left: 10px;
+  }
+.p1{
+    float: right;
+	font-size: 32px;
+	margin-right: 45%;
+	margin-top: 40px;
+	color: #222247;
+	font-weight: bolder;
+  }
+.p2{
+	float: right;
+	margin-right: -52%;
+	margin-top: 40px;
+}
+.p2 input[type="submit"]{
+    font-family: 'Lato', sans-serif;
+    background: linear-gradient(to bottom, #92dff0 0%, #c5cbd0 100%);
+    display: inline-block;
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+    font-size: 17px;
+    color: #040607;
+    text-shadow: 0 1px 0 rgb(255 255 255);
+  	font-size: 19px;
+    font-weight: 850;
+    box-shadow: 0 1px 3px 1px rgb(87 128 170), 0 1px 0 rgb(255 255 255) inset;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 100%;
+	  transition: all;
+  }
+.t21{
+	margin-top: 11px;
+    margin-left: 21px;
+    font-size: 20px;
+  }
+.tb21{
+	position: absolute;
+    bottom: 20px;
+    top: 0px;
+    left: 20px;
+    right: 20px;
+    color: white;
+    border: #002147 solid;
+    width: 686px;
+    height: 427px;
+    margin-top: 23px;
+    margin-left: 25px;
+    border-radius: 5px;
+    background: url("24.jpg");
+  }
+.tb11{
+	position: absolute;
+    bottom: 20px;
+    top: 0px;
+    left: -4px;
+    right: 20px;
+    color: black;
+    width: 640px;
+    height: 357px;
+    margin-top: 44px;
+    margin-left: 25px;
+    background: white;
+  }
+.a1{
+  }
+.a1 input[type="submit"]{
+    background: url("24.jpg");
+    font-size: 23px;
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    margin: 20px 0px 0px 11px;
+    border: #002147 solid;
+    border-radius: 3px;
+    padding: 8px;
+    color: white;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.45);
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 690px;
+    height: 55px;
+    cursor: pointer;
+    transition: all;
+  }
+.a1 input[type="submit"]:hover {
+    background: #DDD;
+  }
+.a1 input[type="submit"]:active {
+    padding-top: 9px;
+    padding-bottom: 7px;
+    background: #C9C9C9;
+  }
+.container2 {
+	position: relative;
+    display: inline-block;
+	margin:0 auto;
+	padding: 0 10px;
+	height: 500px;
+    width: 50%;
+    float: right;
+   }
+.a2 input[type="submit"]{
+    background: url("24.jpg");
+    font-size: 23px;
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    margin-top: 405px;
+    margin-left: -2px;
+    border: #002147 solid;
+    border-radius: 3px;
+    padding: 8px;
+    color: white;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.45);
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 686.5px;
+    height: 55px;
+    cursor: pointer;
+    transition: all;
+}
+.a2 input[type="submit"]:hover {
+    background: #DDD;
+}
+.a2 input[type="submit"]:active {
+    padding-top: 9px;
+    padding-bottom: 7px;
+    background: #C9C9C9;
+}
+.tb31{
+	position: absolute;
+    bottom: 20px;
+    top: 0px;
+    left: 20px;
+    right: 20px;
+    color: white;
+    width: 690px;
+    height: 75px;
+    margin-top: 445px;
+    margin-left: 0px;
+    border-radius: 5px;
+    background: url("24.jpg");
+    border: #002147 solid;
+  }
+.tb31 input[type="text"]{
+	position: relative;
+    bottom: 20px;
+    top: 0px;
+    width: 94%;
+    height: 35px;
+    margin-top: 17px;
+    margin-left: 20px;
+    border-radius: 2px;
+    border: white solid 1px;
+    background: url("24.jpg");;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-top: 0px;
+  }
+::placeholder{
+    color: white;
+    font-size: 17px;
+  }
+form.tb31 button {
+    float: right;
+    position: relative;
+    width: 20%;
+    height: 33.5px;
+    padding: 6px;
+    background: #B6D0E2;
+    color: black;
+    font-size: 17px;
+    border: 2px solid #B6D0E2;
+    border-left: none;
+    cursor: pointer;
+    margin: -34.5px 21.5px 0px 0px
+  }
+form.tb31 button:hover {
+    background: #0b7dda;
+  }
+.tb41{
+    position: absolute;
+    bottom: 20px;
+    top: 0px;
+    left: 20px;
+    right: 20px;
+    color: white;
+    width: 690px;
+    height: 405px;
+    margin-top: 23px;
+    margin-left: 0px;
+    border-radius: 5px;
+    background: url("24.jpg");
+    }
+.scroller{ 
+    overflow-y: scroll;
+    scrollbar-color: black black;
+    scrollbar-width: thin;
+    }
+.p21{
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 100px;
+    }
+.p21 input[type="submit"] {
+    font-family: 'Lato', sans-serif;
+    background: linear-gradient(to bottom, #ffffff 0%, #c5cbd0 100%);
+    display: inline-block;
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+    font-size: 17px;
+    color: #040607;
+    text-shadow: 0 1px 0 rgb(255 255 255);
+    font-size: 19px;
+    font-weight: 850;
+    box-shadow: 0 1px 3px 1px rgb(70 71 72), 0 1px 0 rgb(255 255 255) inset;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 100%;
+    transition: all;
+    }
+.tb12{
+    position: absolute;
+    bottom: 20px;
+    top: 0px;
+    left: -4px;
+    right: 20px;
+    color: black;
+    width: 648px;
+    height: 340px;
+    margin-top: 44px;
+    margin-left: 25px;
+    background: white;
+    padding: 10px 10px 10px 10px;
+    }
+.tb12 input[type="submit"]{
+    font-family: 'Lato', sans-serif;
+    background: linear-gradient(to bottom, #ffffff 0%, #bdd7ed 100%);
+    display: inline-block;
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+    color: black;
+    text-shadow: 0 1px 0 rgb(255 255 255);
+    font-size: 16px;
+    font-weight: 850;
+    box-shadow: 0 1px 3px 1px rgb(70 71 72), 0 1px 0 rgb(255 255 255) inset;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 22%;
+    transition: all;
+    margin: 5px;
+    float: right;
+    }
+.e1{
+    width: 100%;
+    height: 32px;
+    max-width: 300px;
+    border: solid black 2px;
+    margin: 10px 175px 10px 0px;
+    color: black;
+    font-weight: 550;
+}

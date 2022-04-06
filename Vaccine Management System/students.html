@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form </title>
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="css/student.css">
+
+</head>
+<body>
+  <p><img class="image21" src="images/01.jpg">
+    <a href="MyAccount1.html" class="p2"><input type="submit" value="Back"></a>
+  </p>
+  <form class="registration_form1" action="#popup1" method="post">
+    <div class="form_header">
+         <h1><b>Student Registration Form</b></h1>
+    </div>
+
+    <div class="form-body">
+         <!-- Full Name -->
+         <div class="form-group left" >
+          <label for="name"><b>Full Name</b></label>
+          <input type="text" id="name" class="form-input" placeholder="enter your full name" required="required" />
+      </div>
+      <!-- Smard Card ID -->
+      <div class="form-group left">
+          <label for="smartcardid"><b>Smart Card ID</b></label>
+          <input type="text" id="smartcardid" name="smartcardid" class="form-input" placeholder="enter your smartcard id" required pattern="[a-zA-Z0-9]+">
+      </div>
+      <!-- Email Address -->
+      <div class="form-group">
+        <label for="email" class="label-title"><b>Email Id</b></label>
+        <input type="email" id="email" class="form-input" placeholder="enter your email" required="required">
+      </div>
+      <!--class and year of joining-->
+      <div class="horizontal-group">
+        <div class="form-group left">
+          <label for="class" class="label-title"><b>Class</b></label>
+          <input type="text" id="class" class="form-input" placeholder="enter your class">
+        </div>
+        <div class="form-group right">
+          <label for="date of joining" class="label-title"><b>Date of joining</b></label>
+          <input type="date" id="date" class="form-input" placeholder="enter your date of joining">    
+        </div>
+      </div>
+      <!-- Phone Number -->
+      <div class="form-group">
+          <label for="phone"><b>Mobile Number</b></label>
+          <input type="tel" id="phone" class="form-input" name="phone" placeholder="enter your mobile number">
+      </div>
+
+      <!--Address-->
+      <div class="form-group">
+        <label for="address" class="label-title"><b>Address</b></label>
+        <input type="text" id="address" class="form-input" name="address" placeholder="enter your address">
+      </div>
+
+      <!---Hostel name-->
+      <div class="form-group">
+        <label for="hostel" class="label-title"><b>Hostel</b></label>
+        <input type="text" id="hostel" class="form-input" name="hostel" placeholder="enter your hostel name">
+      </div>
+      
+      <!--Guardian Details-->
+      <fieldset class="formbody"><legend><b>Guardian Details</b></legend>
+      <div class="horizontal-group">
+        <div class="form-group left">
+          <label for="1st guardian" class="label-title"><b>1st guardian</b></label>
+         <a href="guardian_details.html"><button type="button" id="1st guardian" class="button">1st Guardian</button></a>
+        </div>
+        <div class="form-group right">
+          <label for="2nd guardian" class="label-title"><b>2nd guardian</b></label>
+          <a href="guardian_details.html"><button type="button" id="2nd guardian" class="button">2nd Guardian</button></a>
+        </div>
+        <div class="form-group left">
+          <label for="3rd guardian" class="label-title"><b>3rd guardian</b></label>
+          <a href="guardian_details.html"><button type="button" id="3rd guardian" class="button">3rd Guardian</button></a>
+        </div>
+        <div class="form-group right">
+          <label for="4th guardian" class="label-title"><b>4th guardian</b></label>
+          <a href="guardian_details.html"><button type="button" id="4th guardian" class="button">4th Guardian</button></a>
+        </div>
+      </div>
+      </fieldset>
+      <!--Student Vaccination status-->
+      <fieldset class="formbody"><legend><b>Student Vaccination Status</b></legend>
+      <p><b>(Upload pdf only)</b></p>
+        <div class="horizontal-group">
+        <div class="form-group left" >
+          <label for="Dose 1st" class="label-title"><b>Vaccine Dose 1st</b></label>
+          <input type="file" id="Dose 1st" size="80">
+        </div>
+        <div class="form-group right" >
+          <label for="Dose 2nd" class="label-title"><b>Vaccine Dose 2nd</b></label>
+          <input type="file" id="Dose 2nd" size="80">
+        </div>
+      </div>
+      <div class="horizontal-group">
+        <div class="form-group left" >
+          <label for="Booster Dose" class="label-title"><b>Booster Dose</b></label>
+          <input type="file" id="Booster Dose" size="80">
+        </div>
+      </div>
+      </fieldset>
+    </div>
+
+    <div class="form-footer">
+      <div class="horizontal-group">
+        <div class="form-group left">
+          <button type="reset" class="btn" >Reset</button>
+        </div>
+        <div class="right">
+          <button type="submit" class="btn" >Save</button>
+        </div>
+      </div>  
+    </div>
+  </form>
+  <br>
+</body>
+</html>
